@@ -11,3 +11,4 @@ __pycache__/
 .tox
 .cache
 /data
+/merged_audio_data.csv
