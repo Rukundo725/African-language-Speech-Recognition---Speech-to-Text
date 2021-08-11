@@ -4,6 +4,7 @@ sys.path.append(os.path.abspath(os.path.join('..')))
 
 from scripts.script import find_average, count_occurence
 
+#unit testing
 
 class TestCases(unittest.TestCase):
     def test_find_average(self):
@@ -35,7 +36,7 @@ class TestCountOccurence(unittest.TestCase):
         """
         Provide an assertion level for arg input
         """
-        self.assertRaises(TypeError, count_occurence, True)
+        self.assertRaises(TypeError, count_occurence, False)
 
 if __name__ == '__main__':
     unittest.main()
