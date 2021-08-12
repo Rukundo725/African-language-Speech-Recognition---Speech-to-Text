@@ -1,21 +1,24 @@
+    
 name: African-language-Speech-Recognition---Speech-to-Text
-on: 
-  push:
-    branches:
-    - main
+on: [push]
 jobs:
   run:
-    runs-on: ubuntu-latest 
-    container: docker://dvcorg/cml-py3:latest
+    runs-on: [windows-latest]
     steps:
-    - uses: actions/checkout@v2
-    - name: cml_run
-      run: | 
-        pip install -r requirements.txt
-        #python scripts/script.py
-
-    - name: run-tests
-      run: |
-        python -m unittest tests.test_script
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - uses: iterative/setup-cml@v1
+      - name: cml
+        env:
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          pip install -r requirements.txt
+          python train_model.ipynb
+          echo "## Model metrics" > report.md
+          cat metrics.txt >> report.md
+          echo "## Data viz" >> report.md
+          cml-publish model_1.png --md >> report.md
 
         
+
+  
