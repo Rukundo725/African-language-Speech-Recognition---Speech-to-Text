@@ -53,6 +53,8 @@ the project consist of 3 main parts:
       ●	Package your model as a docker container for easy deployment in the cloud
 
 
+
+[models] https://github.com/Rukundo725/African-language-Speech-Recognition---Speech-to-Text/tree/speech_recognition/models
       
       
       
