@@ -54,7 +54,7 @@ the project consist of 3 main parts:
 
 
 
-[models] https://github.com/Rukundo725/African-language-Speech-Recognition---Speech-to-Text/tree/speech_recognition/models
+<a href="https://github.com/Rukundo725/African-language-Speech-Recognition---Speech-to-Text/tree/speech_recognition/models">models</a>
       
       
       
