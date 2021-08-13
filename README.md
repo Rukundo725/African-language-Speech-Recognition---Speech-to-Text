@@ -53,6 +53,17 @@ the project consist of 3 main parts:
       ●	Package your model as a docker container for easy deployment in the cloud
 
 
-      
+parts of the repository:
+
+
+<a href="https://github.com/Rukundo725/African-language-Speech-Recognition---Speech-to-Text/tree/speech_recognition/models">models</a> folder with all tried models
+
+<a href="https://github.com/Rukundo725/African-language-Speech-Recognition---Speech-to-Text/tree/speech_recognition/notebooks">notebooks</a> folder with python notebooks 
+
+<a href="https://github.com/Rukundo725/African-language-Speech-Recognition---Speech-to-Text/tree/speech_recognition/scripts">scripts</a> folder with all used python scripts
+
+<a href="https://github.com/Rukundo725/African-language-Speech-Recognition---Speech-to-Text/tree/speech_recognition/data1">data1</a> folder with dvc data 
+
+     
       
       
