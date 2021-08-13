@@ -55,6 +55,10 @@ the project consist of 3 main parts:
 
 
 <a href="https://github.com/Rukundo725/African-language-Speech-Recognition---Speech-to-Text/tree/speech_recognition/models">models</a>
-      
+<a href="https://github.com/Rukundo725/African-language-Speech-Recognition---Speech-to-Text/tree/speech_recognition/notebooks">notebooks</a>
+<a href="https://github.com/Rukundo725/African-language-Speech-Recognition---Speech-to-Text/tree/speech_recognition/scripts">scripts</a>
+<a href="https://github.com/Rukundo725/African-language-Speech-Recognition---Speech-to-Text/tree/speech_recognition/data1">data1</a>
+
+     
       
       
